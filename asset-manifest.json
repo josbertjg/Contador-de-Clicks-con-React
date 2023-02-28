@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.400fbf6f.css",
-    "main.js": "/repository-name/static/js/main.9e56ca6e.js",
-    "index.html": "/repository-name/index.html",
-    "main.400fbf6f.css.map": "/repository-name/static/css/main.400fbf6f.css.map",
-    "main.9e56ca6e.js.map": "/repository-name/static/js/main.9e56ca6e.js.map"
+    "main.css": "/josbertjg/Contador-de-Clicks-con-React/static/css/main.400fbf6f.css",
+    "main.js": "/josbertjg/Contador-de-Clicks-con-React/static/js/main.9e56ca6e.js",
+    "index.html": "/josbertjg/Contador-de-Clicks-con-React/index.html",
+    "main.400fbf6f.css.map": "/josbertjg/Contador-de-Clicks-con-React/static/css/main.400fbf6f.css.map",
+    "main.9e56ca6e.js.map": "/josbertjg/Contador-de-Clicks-con-React/static/js/main.9e56ca6e.js.map"
   },
   "entrypoints": [
     "static/css/main.400fbf6f.css",
