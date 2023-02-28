@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
+import Contador from './components/Contador';
+import Boton from './components/Boton';
+import { useState } from 'react';
 
 function App() {
+
+  let [numClicks,setNumClicks] = useState(0);
+
+  const increase = ()=>setNumClicks(numClicks+1);
+
+  const blank = ()=>setNumClicks(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="mb-5">Desarrollado en ReactJS por <a href="https://josbertjg.github.io/" target="_blank">Josbert Guedez</a></h1>
+      <div>
+        <Contador num={numClicks}/>
+        <Boton name='Click' isClickedButton={true} clickHandler={increase}/>
+        <Boton name='Reiniciar' isClickedButton={false} clickHandler={blank}/>
+      </div>
     </div>
   );
 }
